@@ -20,13 +20,6 @@ To compile and run the game, you need:
 - A C compiler (e.g., GCC)
 - Windows terminal (for system("cls") and system("color") to work properly)
 
-### Compilation
-
-Use the following command to compile the code:
-
-```bash
-gcc quiz\ game.c -o quiz_game
-
 ### How to Play
 Launch the game and enter 1 to access the main menu.
 
@@ -46,7 +39,7 @@ Correct answer: +10 points
 
 Wrong answer: -2 points
 
-Rating:
+### Rating:
 
 0–9: ★☆☆☆☆
 
@@ -57,3 +50,10 @@ Rating:
 30–39: ★★★★☆
 
 40–50: ★★★★★
+
+### Compilation
+
+Use the following command to compile the code:
+
+```bash
+gcc quiz\ game.c -o quiz_game
